@@ -165,3 +165,11 @@
 // };
 
 // export default page;
+
+import React from "react";
+
+const page = () => {
+  return <div>this is hero</div>;
+};
+
+export default page;

@@ -84,3 +84,11 @@
 // };
 
 // export default page;
+
+import React from "react";
+
+const page = () => {
+  return <div>this header</div>;
+};
+
+export default page;
