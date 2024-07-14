@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import dbConfig from "./utlis/dbConfig";
-// import Slider from "./Slider";
+import Slider from "./Slider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +21,7 @@ export default async function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className=" flex ">
-          {/* <Slider /> */}
+          <Slider />
           <div className="w-full flex">
             <div className="md:w-full h-[567px] px-[50px] pb-14 mt-10">
               {/* <div className="border  w-[600px] h-[400px]">{children}</div> */}
